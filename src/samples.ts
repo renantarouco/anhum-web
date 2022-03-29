@@ -8,9 +8,14 @@ interface FixedAudioContext extends AudioContext {
 const SAMPLE_URLS = {
   'gnarly-trance-pluck-high': require('./soundfonts/gnarly-trance-pluck-velocities-high.mp3'),
   'synthetic-marimba-high': require('./soundfonts/synthetic-marimba-velocities-high-mono.mp3'),
-  'tight-synth-bass': require('./soundfonts/tight-synth-bass-velocities-mono.mp3'),
+  'tight-synth-bass': require('./soundfonts/tight-synth-bass.mp3'),
   'glass-string-structures': require('./soundfonts/glass-string-structures-mono.mp3'),
   'delicate-bells': require('./soundfonts/delicate-bells-velocities-mono.mp3'),
+  'choir_high': require('./soundfonts/choir_high_velocities.mp3'),
+  'choir_synth': require('./soundfonts/choir_synth_velocities.mp3'),
+  'piano_glass': require('./soundfonts/piano_glass_velocities.mp3'),
+  'piano_high': require('./soundfonts/piano_high_velocities.mp3'),
+  'piano_low': require('./soundfonts/piano_low_velocities.mp3'),
   'convolution': require('./samples/minster1_000_ortf_48k.wav')
 };
 

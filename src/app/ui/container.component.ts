@@ -10,7 +10,7 @@ import {
   transition,
   trigger
 } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
+import { DomSanitizer } from '@angular/platform-browser';
 import { List } from 'immutable';
 
 import { PlayerState } from '../model/player-state.model';
@@ -19,8 +19,8 @@ import { Sound } from '../model/sound.model';
 
 @Component({
   selector: 'in-c-container',
-  template: require('./container.component.html'),
-  styles: [require('./container.component.css')],
+  templateUrl: './container.component.html',
+  styleUrls: ['./container.component.css'],
   animations: [
     trigger('titleTransition', moveOut('-300px')),
     trigger('introTransition', moveOut('300px')),
@@ -52,10 +52,7 @@ export class ContainerComponent {
     const grad = `radial-gradient(farthest-corner at ${xPercent}% ${yPercent}%, #434343 0%, #000000 100%)`;
     return this.domSanitizer.bypassSecurityTrustStyle(grad);
   }
-  
-
 }
-
 
 function moveOut(toY: string) {
   return [

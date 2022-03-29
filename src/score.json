@@ -2,73 +2,64 @@
   {
     "number": 1,
     "score": [
-      {"note": "C4", "velocity": "low", "duration": 0, "gracenote": true},
-      {"note": "E4", "velocity": "high", "duration": 2},
-      {"note": "C4", "velocity": "low", "duration": 0, "gracenote": true},
-      {"note": "E4", "velocity": "high", "duration": 2},
-      {"note": "C4", "velocity": "low", "duration": 0, "gracenote": true},
-      {"note": "E4", "velocity": "high", "duration": 2}
+      {"note": "E5", "velocity": "high", "duration": 8},
+      {"note": "D5", "velocity": "high", "duration": 4}
     ]
   },
   {
     "number": 2,
     "score": [
-      {"note": "C4", "velocity": "low", "duration": 0, "gracenote": true},
-      {"note": "E4", "velocity": "high", "duration": 1},
-      {"note": "F4", "velocity": "low", "duration": 1},
-      {"note": "E4", "velocity": "medium", "duration": 2}
+      {"note": "C5", "velocity": "high", "duration": 4},
+      {"note": "B4", "velocity": "medium", "duration": 4},
+      {"note": "A4", "velocity": "high", "duration": 4},
+      {"note": "E4", "velocity": "medium", "duration": 2},
+      {"duration": 4}
     ]
   },
   {
     "number": 3,
     "score": [
-      {"duration": 1},
-      {"note": "E4", "velocity": "low", "duration": 1},
-      {"note": "F4", "velocity": "medium", "duration": 1},
-      {"note": "E4", "velocity": "low", "duration": 1}
+      {"note": "F5", "velocity": "high", "duration": 8}
     ]
   },
   {
     "number": 4,
     "score": [
-      {"duration": 1},
-      {"note": "E4", "velocity": "low", "duration": 1},
-      {"note": "F4", "velocity": "medium", "duration": 1},
-      {"note": "G4", "velocity": "low", "duration": 1}
+      {"note": "C5", "velocity": "high", "duration": 4},
+      {"note": "D5", "velocity": "medium", "duration": 4},
+      {"note": "E5", "velocity": "high", "duration": 8}
     ]
   },
   {
     "number": 5,
     "score": [
-      {"note": "E4", "velocity": "high", "duration": 1},
-      {"note": "F4", "velocity": "low", "duration": 1},
-      {"note": "G4", "velocity": "medium", "duration": 1},
-      {"duration": 1}
+      {"note": "G5", "velocity": "high", "duration": 8},
+      {"duration": 4}
     ]
   },
   {
     "number": 6,
     "score": [
-      {"note": "C5", "velocity": "high", "duration": 8},
-      {"note": "C5", "velocity": "high", "duration": 8}
+      {"note": "G5", "velocity": "high", "duration": 4},
+      {"note": "A5", "velocity": "medium", "duration": 4},
+      {"note": "D5", "velocity": "high", "duration": 6}
     ],
     "changeHue": true
   },
   {
     "number": 7,
     "score": [
-      {"duration": 2},
-      {"duration": 2},
-      {"duration": 2},
-      {"duration": 1},
-      {"note": "C4", "velocity": "high", "duration": 0.5},
-      {"note": "C4", "velocity": "low", "duration": 0.5},
-      {"note": "C4", "velocity": "low", "duration": 1},
-      {"duration": 1},
-      {"duration": 2},
-      {"duration": 2},
-      {"duration": 2},
-      {"duration": 2}
+      {"note": "A4", "velocity": "high", "duration": 2},
+      {"note": "C5", "velocity": "low", "duration": 0.5},
+      {"note": "D5", "velocity": "low", "duration": 1},
+      {"note": "C5", "velocity": "low", "duration": 1},
+      {"note": "B4", "velocity": "high", "duration": 2},
+      {"note": "E5", "velocity": "low", "duration": 2},
+      {"note": "C5", "velocity": "low", "duration": 0.5},
+      {"note": "B4", "velocity": "low", "duration": 0.5},
+      {"note": "G4", "velocity": "low", "duration": 1},
+      {"note": "B4", "velocity": "high", "duration": 2},
+      {"note": "A4", "velocity": "low", "duration": 2}
     ]
   },
   {
@@ -577,6 +568,5 @@
       {"note": "Bb4", "velocity": "high", "duration": 0.5},
       {"note": "G4", "velocity": "low", "duration": 0.5}
     ]
-  }
-  
+  } 
 ]

@@ -51,5 +51,4 @@ export class PulseService implements OnDestroy {
   private getNextPulseTime() {
     return this.startTime + this.pulseCount * this.getBeatInterval();
   }
-
 }

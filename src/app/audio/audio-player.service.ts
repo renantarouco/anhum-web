@@ -68,7 +68,7 @@ export class AudioPlayerService {
   }
 
   private playPulse(time: number, bpm: number) {
-    const osc = this.audioCtx.createOscillator();
+    /*const osc = this.audioCtx.createOscillator();
     const gain = this.audioCtx.createGain();
 
     osc.frequency.value = PULSE_FREQUENCY;
@@ -82,7 +82,7 @@ export class AudioPlayerService {
     gain.gain.value = 0;
     gain.gain.setValueAtTime(0, time)
     gain.gain.linearRampToValueAtTime(PULSE_GAIN, time + 0.01);
-    gain.gain.linearRampToValueAtTime(0, time + PULSE_DURATION);
+    gain.gain.linearRampToValueAtTime(0, time + PULSE_DURATION);*/
   }
 
   private playPlayers(state: AppState) {
