@@ -1,16 +1,20 @@
 <div>
   <p>
     Play your own unique version of
-    <a href="https://en.wikipedia.org/wiki/In_C" target="_blank">Terry Riley's "In C"</a>
+    <a href="https://en.wikipedia.org/wiki/In_C" target="_blank">"Nós"</a>
     with the help of five automated bot performers.
   </p>
   <p>
-    Every bot plays the same sequence of 53 short musical patterns.
-    Each bot will keep repeating the same pattern until <em>you</em> decide it should move on to the next.
+    Every bot plays the same sequence of 20 short musical patterns.
+    Each bot will keep repeating the same pattern until <em>one</em> decide it should move on to the next.
   </p>
   <p>
     Over time, different musical and visual combinations will emerge.
   </p>
+</div>
+<div class="initial_form">
+  <label for="session_id">Player name:</label>
+  <input id="player_name" type="text" />
 </div>
 <button [disabled]="!samplesLoaded"
         (click)="play.next()">

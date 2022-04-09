@@ -23,3 +23,7 @@ p {
 a, a:active, a:visited {
   color: rgba(255, 255, 255, 0.7);
 }
+.initial_form label {
+  color: white;
+  margin-left: 1rem;
+}

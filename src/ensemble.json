@@ -1,31 +1,31 @@
 [
   {
     "instrument": "choir_high",
-    "instrumentName": "Choir High",
+    "instrumentName": "choirhigh",
     "gain": 0.8,
     "pan": -0.9
   },
   {
-    "instrument": "piano_low",
-    "instrumentName": "Piano Low",
+    "instrument": "piano_high",
+    "instrumentName": "pianohigh",
     "gain": 0.1,
     "pan": -0.4
   },
   {
-    "instrument": "piano_high",
-    "instrumentName": "Piano High",
+    "instrument": "piano_low",
+    "instrumentName": "pianolow",
     "gain": 0.5,
     "pan": 0
   },
   {
     "instrument": "piano_glass",
-    "instrumentName": "Piano Glass",
+    "instrumentName": "piano",
     "gain": 0.5,
     "pan": 0.4
   },
   {
-    "instrument": "choir_high",
-    "instrumentName": "Choir High",
+    "instrument": "voice_micah_velocities",
+    "instrumentName": "voice",
     "gain": 0.2,
     "pan": 0.9
   }
